@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1db1790-881b-4119-b660-735d8a9ee0d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.snyk" afterDir="false" />
+    <list default="true" id="d1db1790-881b-4119-b660-735d8a9ee0d9" name="Default Changelist" comment="added Snyk dependency &quot;devDependecies&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -81,8 +79,16 @@
       <workItem from="1611174911166" duration="1541000" />
       <workItem from="1611613684916" duration="811000" />
       <workItem from="1611790310116" duration="1065000" />
-      <workItem from="1611792148445" duration="893000" />
+      <workItem from="1611792148445" duration="1478000" />
     </task>
+    <task id="LOCAL-00001" summary="added Snyk dependency &quot;devDependecies&quot;">
+      <created>1611795960985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611795960985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +105,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Snyk dependency &quot;devDependecies&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Snyk dependency &quot;devDependecies&quot;" />
   </component>
 </project>
