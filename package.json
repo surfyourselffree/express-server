@@ -1,21 +1,21 @@
 {
-  "name": "express-server",
-  "version": "1.0.0",
-  "description": "Node.js on Docker",
   "author": "Christine Simko <admin@christinesimko.com>",
-  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "description": "Node.js on Docker",
+  "devDependencies": {
+    "snyk": "^1.439.3"
+  },
   "license": "MIT",
-  "type": "module",
+  "main": "index.js",
+  "name": "express-server",
   "scripts": {
     "start": "node index.js",
     "start:watch": "nodemon index.js",
     "test": "snyk test"
   },
-  "dependencies": {
-    "express": "^4.17.1",
-    "uuid": "^8.3.2"
-  },
-  "devDependencies": {
-    "snyk": "^1.439.3"
-  }
+  "version": "1.0.0",
+  "type": "module"
 }
