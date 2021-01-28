@@ -6,12 +6,16 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-	"scripts": {
-		"start": "node index.js",
-		"start:watch": "nodemon index.js"
-	},
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon index.js",
+    "test": "snyk test"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "snyk": "^1.439.3"
   }
 }
